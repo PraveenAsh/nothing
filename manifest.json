@@ -1,0 +1,19 @@
+{
+	"name": "Boomerang",
+	"description": "The social media controller application",
+	"version": "1",
+	"manifest_version": 2,
+	"browser_action":{
+	    "default_title": "Boomerang",
+		"default_popup": "popup.html",
+		"default_icon": "./images/boomerang.png"
+	},
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"storage"
+	],
+	"background":{
+		"scripts": ["index.js"]
+	}
+}
