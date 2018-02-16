@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 console.log("something");
 var website = {};
 var storage = function(){
